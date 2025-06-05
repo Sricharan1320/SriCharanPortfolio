@@ -1,0 +1,30 @@
+body{
+background: linear-gradient(to right, #ff9a9e, #fad0c4, #fbc2eb);
+padding:15px;
+}
+h2{
+text-decoration:underline;
+font-family:cursive;
+}
+h3{
+text-decoration:underline;
+font-family:cursive;
+}
+@media (max-width: 600px) {
+  body {
+    
+    font-size: 18px; 
+  }
+
+  h2 {
+    font-size: 1.5rem; 
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p, a {
+    font-size: 1rem;
+  }
+}

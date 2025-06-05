@@ -1,0 +1,22 @@
+body {
+  background:linear-gradient(to right, #a18cd1, #fbc2eb);
+  padding:15px;
+}
+h2{
+font-family:cursive;
+text-decoration:underline
+}
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
